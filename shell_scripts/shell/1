@@ -1,0 +1,8 @@
+#!/bin/bash
+n=$1
+sum=0
+for i in $*
+do
+	echo 'expr $sum+ $i'
+done 
+echo "the output  is:  $sum"

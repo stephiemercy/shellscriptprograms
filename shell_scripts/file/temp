@@ -1,0 +1,500 @@
+   30  vi string1.sh
+   31  ./string1.sh
+   32  vi string1.sh
+   33  ./string1.sh
+   34  vi string1.sh
+   35  ./string1.sh
+   36  vi string1.sh
+   37  ./string1.sh
+   38  vi string1.sh
+   39  ./string1.sh
+   40  vi string1.sh
+   41  ./string1.sh
+   42  vi string1.sh
+   43  ./string1.sh
+   44  vi string1.sh
+   45  ./string1.sh
+   46  vi string1.sh
+   47  ./string1.sh
+   48  vi string1.sh
+   49  ./string1.sh
+   50  vi string1.sh
+   51  ./string1.sh
+   52  vi string1.sh
+   53  ./string1.sh
+   54  vi string1.sh
+   55  ./string1.sh
+   56  vi string1.sh
+   57  vi great2.sh
+   58  chmod +x great2.sh
+   59  ./ great2.sh
+   60  ./great2.sh
+   61  vi great2.sh
+   62  ./great2.sh
+   63  vi great2.sh
+   64  ./great2.sh
+   65  vi great2.sh
+   66  ./great2.sh
+   67  vi great2.sh
+   68  vi string1.sh
+   69  ./string1.sh
+   70  vi string1.sh
+   71  ./string1.sh
+   72  vi string1.sh
+   73  ./string1.sh
+   74  cd shell_programs
+   75  ls
+   76  cd ..
+   77  cd shell_scripts
+   78  ls
+   79  vi string1.sh
+   80  ./string1.sh
+   81  cat great2.sh
+   82  vi great.sh
+   83  cd shell_scripts
+   84  ls
+   85  vi string1.h
+   86  vi string1.sh
+   87  ls 
+   88  cd shell_scripts
+   89  ls
+   90  vi great1.sh
+   91  vi great2.sh
+   92  cd ..
+   93  vi great2.sh
+   94  cd shell_scripts 
+   95  vi great2.sh
+   96  vi small.sh
+   97  chmod +x small.sh
+   98  vi great2.sh
+   99  ./great2.sh
+  100  ./small.sh
+  101  vi small.sh
+  102  ./small.sh
+  103  vi small.sh
+  104  ./small.sh
+  105  vi small.sh
+  106  ./small.sh
+  107  vi small.sh
+  108  ls
+  109  cd iffolder
+  110  ls
+  111  vi small.sh
+  112  chmod +x small.sh
+  113  ./small.sh 3 4 5
+  114  cd ..
+  115  ps
+  116  ps -ef
+  117  htop
+  118  top
+  119  ps -ef
+  120  ps -ef
+  121  ps
+  122  ps -ef |grep ubuntu
+  123  ps -ef 
+  124  ps
+  125  ps ef
+  126  ps -ef
+  127  netstat -nptl
+  128  netstat -a
+  129  sudo apt install net-tools
+  130  netstat -an
+  131  ps
+  132  ps -ef
+  133  ps -ef|wc -l
+  134  ps
+  135  ps |grep "PID"
+  136  ls
+  137  vi reverse.sh
+  138  chmod +x reverse.sh
+  139  ./reverse.sh
+  140  vi reverse.sh
+  141  ./reverse.sh
+  142  vi reverse.sh
+  143  ./reverse.sh
+  144  vi hello
+  145  vi reverse.sh
+  146  clear
+  147  cat hello
+  148  vi reverse.sh
+  149  ./reverse.sh
+  150  vi hello
+  151  cat hello
+  152  ./reverse.sh
+  153  vi reverse.sh
+  154  cat hello |wc -l
+  155  vi reverse.sh
+  156  ./reverse.sh
+  157  vi reverse.sh
+  158  clear
+  159  ;ls
+  160  ls
+  161  ls -l
+  162  ls -lt
+  163  ls -lrt
+  164  ls -t
+  165  clear
+  166  touch filename {1,2}
+  167  ls
+  168  touch filename{1,2}
+  169  ls
+  170  vi 1
+  171  rm filename1
+  172  rm filename2
+  173  cd shell_scripts
+  174  cd
+  175  clear
+  176  cd shell_scripts
+  177  ls
+  178  cd ..
+  179  vi text1
+  180  vi text2
+  181  cut -d " " -f3 text2
+  182  vi text2
+  183  cut -d " " -f3 text2
+  184  cut -d "  " -f3 text2
+  185  cut -d "w" -f3 text2
+  186  clear
+  187  cat text2
+  188  cut -d " " -f2 text2
+  189  cut -f2 text2
+  190  cut -c 1,2 text2
+  191  cut -d " " -f1 text2
+  192  cut -c 1,2,3,4 text2
+  193  cut -c 1-5 text2
+  194  cut -c 1-$n text2
+  195  cut -c 1-5 textclear
+  196  clear
+  197  history > temp
+  198  cat temp
+  199  clear
+  200  paste text1 text2
+  201  clear
+  202  ls l
+  203  ls -l
+  204  chmod a+rwx text1
+  205  ls -l text
+  206  ls -l text1
+  207  chmod 000 text1
+  208  ls -l text1
+  209  chmod 666 text1
+  210  ls -l text1
+  211  clear
+  212  mkdir abc
+  213  cd abc
+  214  vi text3
+  215  ls -lt
+  216  cd ..
+  217  umask
+  218  umask 022 abc
+  219  cd abc
+  220  ls
+  221  ls -lt
+  222  touch text4
+  223  ls -lt
+  224  cd ..
+  225  mkdir xyz
+  226  umask 022 xyz
+  227  cd xyz
+  228  touch p1
+  229  ls -l
+  230  cd ..
+  231  cd xyz
+  232  cd ..
+  233  ls -lt
+  234  cd xyz
+  235  ls
+  236  ls -l p1
+  237  ls
+  238  ping 
+  239  hostname
+  240  hostname iname
+  241  hostname i
+  242  hostname -i
+  243  ping 172.31.47.253
+  244  clear
+  245  telnet 172.31.7.3
+  246  telnet 172.31.7.3 22
+  247  cat text1 | tee log1
+  248  cat log1
+  249  tree
+  250  netstat
+  251  --netstat
+  252  netstat-- l
+  253  netstat-- help
+  254  netstat --help
+  255  man netstat 
+  256  ifconfig
+  257  hostname -i
+  258  hostname
+  259  nslookup
+  260  nslookup google.com
+  261  clear
+  262  ls -al
+  263  sudo 
+  264  ls -a
+  265  vi .bashrc
+  266  sudo vi .bashrc
+  267  exit
+  268  vi text1
+  269  egrep "introduction|harmful" text1
+  270  egrep "introduction|harmful|environment" text1
+  271  cat text1
+  272  clear
+  273  cat text2
+  274  awk 'FNR==2 {print $1,
+  275  awk 'FNR==2 {print $1,$2} text2
+  276  awk 'FNR==2 {print $1,$2}' text2
+  277  awk 'FNR==1 {print $1,$2,$3}' text2
+  278  awk 'FNR==1 {print $0}' text2
+  279  awk 'NR==1 {print $0}' text2
+  280  awk 'END{print NR}
+  281  awk 'END{print NR}'
+  282  awk 'END{print NR}' text2
+  283  tput "hello"
+  284  tput 'hello'
+  285  t put "helllo"
+  286  tput "helllo"
+  287  head text1
+  288  head -1 text1
+  289  tail -1 text1
+  290  tail +2
+  291  tail +2 text1
+  292  head +2 text1
+  293  head text1
+  294  head -1 text1
+  295  tail -2 text2
+  296  find . -type f -size -100b    
+  297  find . -type f -size -10b    
+  298  find . -type f -size -10K    
+  299  find . -type f -size -10k
+  300  clear
+  301  find . -maxdepth 2 -iname "text1" 
+  302  ls -lt
+  303  cd xyz
+  304  touch text1 text2
+  305  find . -maxdepth 2 -iname "text1" 
+  306  cd ..
+  307  find . -maxdepth 2 -iname "text1" 
+  308  find . -maxdepth 1 -iname "text1" 
+  309  find . -maxdepth 2 -iname "text1" 
+  310  find . -maxdepth 3 -iname "text1" 
+  311  ps
+  312  ps -ef
+  313  ps -u
+  314  ps -ef |grep 1389
+  315  htop
+  316  top
+  317  sudo useradd user100
+  318  sudo passwd user100
+  319  su user100
+  320  groupadd group100
+  321  sudo groupadd group100
+  322  cat /etc/passwd
+  323  cat /etc/group
+  324  clear
+  325  sudo useradd -g group100 user100
+  326  sudo useradd -g group100 user101
+  327  cat /etc/group
+  328  cat /etc/passwd
+  329  cat /etc/group
+  330  clear
+  331  su user100
+  332  sudo usermode
+  333  sudo usermod -aG group100 user100
+  334  sudo usermod -aG group100 user
+  335  cat /etc/passwd
+  336  cat /etc/group
+  337  ls -lt
+  338  cat /etc/group
+  339  clear
+  340  sudo chown -R user100:group100 xyz
+  341  ls -l xyz
+  342  ls -lt
+  343  sudo chown -R user101:group100 xyz
+  344  ls -lt
+  345  groupadd group120
+  346  sudo groupadd group120
+  347  cat /etc/group
+  348  clear
+  349  sudo chown -R user100:group120 xyz
+  350  ls -lt
+  351  sudo user100
+  352  su user100
+  353  sudo bash
+  354  su user101
+  355  su user100
+  356  vi .bashrc
+  357  su user100
+  358  clear
+  359  vi ls -a
+  360  ls -a
+  361  sudo vi .bash_profile
+  362  su user100
+  363  sudo bash
+  364  sudo vi .bash_profile
+  365  source .bash_profile
+  366  ls
+  367  clear
+  368  clear
+  369  ls
+  370  ls
+  371  cd shell_scripts
+  372  cd shell_scripts
+  373  cd iffoldedr
+  374  cd iffolder
+  375  ls
+  376  catprg05_adPwd.sh
+  377  cat prg05_adPwd.sh
+  378  ls
+  379  cat prg1.sh
+  380  cd ..
+  381  cd forfolder
+  382  ls
+  383  cd 26thjuly
+  384  ls
+  385  vi string.sh
+  386  cd shell_scripts
+  387  ls
+  388  cd basicfr
+  389  ls
+  390  cd ..
+  391  cd ..
+  392  cd ..
+  393  cd
+  394  ls
+  395  cd shell_script
+  396  cd shell_scripts
+  397  cd file
+  398  ls
+  399  clear
+  400  ls
+  401  vi basic.sh
+  402  clear
+  403  cd shell_scripts/file
+  404  ls
+  405  vi basic.sh
+  406  ./basic.sh > t1
+  407  ./basic.sh 2> t1
+  408  cat t1
+  409  ./basic.sh 
+  410  ./basic.sh &>t1
+  411  cat t1
+  412  ./basic.sh > t1
+  413  cat t1
+  414  ./basic.sh 2>t1
+  415  cat t1
+  416  ./basic.sh &> t1
+  417  cat t1
+  418  clear
+  419  vi schedule.sh
+  420  chmod +x schedule.sh
+  421  pwd
+  422  date
+  423  crontab -e
+  424  export VISUAL=vi
+  425  crontab -e
+  426  date
+  427  crontab -e
+  428  date
+  429  ls-l
+  430  ls -l
+  431  ls -l
+  432  date
+  433  ls -l
+  434  date
+  435  ls -l
+  436  crontab -e
+  437  crontab -l
+  438  clear
+  439  cd directory
+  440  ls
+  441  ls -t
+  442  cd directory
+  443  ls -t
+  444  wc -l
+  445  ls -t|wc -l
+  446  ls -t |grep -v "sh |
+  447  ls -t |grep -v "sh 
+  448  ls -t |grep -v "sh"
+  449  ls -t |grep -v "sh" |sed '1,5d|
+  450  ls -t |grep -v "sh" |sed '1,5d 
+  451  ls -t |grep -v "sh" |sed '1,5d'
+  452  ls -t |grep -v "sh" |sed '1,5d'|xargs rm 
+  453  ls -t
+  454  touch new1 new2 new3 new4 new5 new6
+  455  touch new7 new8 new9 new10
+  456  ls
+  457  ls -lt
+  458  ls -t |grep -v "sh"
+  459  ls -t |grep -v "sh"| sed 1,5d 
+  460  ls -t |grep -v "sh"| sed 1,5d |xargs rm
+  461  ls
+  462  lz
+  463  ls
+  464  mkdir directory
+  465  mkdir newdir
+  466  clear
+  467  cd newdirr
+  468  clear
+  469  cd dirnew
+  470  ls
+  471  cd newdir
+  472  clear
+  473  touch f1 f2 f3 f4 f5 f6 f7 f8 f9 ften
+  474  touch temp.sh
+  475  ls -t
+  476  ls -t |grep -v "temp.sh"
+  477  clear
+  478  touch f11 f12 f13 f14 f15
+  479  ls
+  480  ls -lt |grep -v "temp.sh"
+  481  ls -lt |grep -v "temp.sh"|sed 1,5d
+  482  ls -lt |grep -v "temp.sh"|sed 1,5d|xargs rm
+  483  ls -lt |grep -v "temp.sh"|sed 1,5d|xargs rm -rf
+  484  ls -lt |grep -v "temp.sh"|sed 1,5d| xargs rm -rf
+  485  history>temp
+  486  cat temp
+  487  ls -lt |grep -v "temp.sh"|sed 1,5d| xargs rm -rf
+  488  ls -lt |grep -v "temp
+  489  ls -lt |grep -v "temp"
+  490  ls -lt |grep -v "temp" |sed '1,5d'
+  491  ls -lt |grep -v "temp" |sed '1,5d'|xargs rm
+  492  ls -lt |grep -v "temp" |sed '1,5d'|xargs rm -rf
+  493  ls -t |grep -v "temp" |sed '1,5d'|
+  494  clear
+  495  ls -t |grep -v "sh"
+  496  ls -t |grep -v "sh"|sed '1,5d'
+  497  ls -t |grep -v "sh"|sed '1,5d'|xargs rm
+  498  ls -t
+  499  ls
+  500  crontab -e
+  501  date
+  502  crontab -e
+  503  export VISUAL=vi
+  504  crontab -e
+  505  date
+  506  cd /shells_scripts/file
+  507  cd /shell_scripts/file
+  508  date
+  509  cd shell_scripts/file
+  510  ls
+  511  vi schedule.sh
+  512  date
+  513  ls
+  514  crontab -e
+  515  clear
+  516  ls
+  517  vi schedule.sh
+  518  crontab -e
+  519  date
+  520  crontab -e
+  521  date
+  522  crontab -e
+  523  crontab -e
+  524  date
+  525  ls
+  526  date
+  527  date
+  528  ls
+  529  history>temp

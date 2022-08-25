@@ -1,0 +1,8 @@
+#!/bin/bash
+#finding sum of given numbers
+sum=0
+for i in 5 5 5 5 5 
+do
+	sum=`expr $sum + $i`
+done 
+echo "the output  is:  $sum"

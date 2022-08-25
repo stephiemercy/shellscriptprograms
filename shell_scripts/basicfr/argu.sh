@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "ur name is $1"
+echo "my place is $2"
+echo "$0"
+echo "$#"
+echo "$*"
+echo "$@"
+echo "$$"
+echo "$!"
+echo  "$?"
